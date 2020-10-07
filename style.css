@@ -1,0 +1,147 @@
+
+body{
+    font-family: Lato;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.container{
+    display: grid;   
+}
+
+.container > div{
+    background-color:#293F50;
+    padding: 0 30px;
+    color:white;
+    padding: 15px 15px;
+}
+
+.icon{
+    text-align: left; 
+    font-size: 30px;    
+}
+
+.icon > h1{
+    margin-top: 35px;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-left: 150px;
+    font-weight: 100;       
+}
+
+.navbar > a{
+    padding: 0  5px;
+    font-weight: 150;
+    font-size: 30px;
+}
+
+.navbar > a:hover{
+    color:lightskyblue;
+}
+
+.date{
+    text-align:right;
+    font-size: 40px;    
+}
+
+.date > div > p{
+    margin-top: 75px;
+    color: green;
+    font-weight: 100;
+    margin-bottom: 0px;
+}
+
+.tagline{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+    font-size: 30px;   
+}
+
+.tagline > h3{
+    color: green;
+    margin-bottom: 0px;      
+}
+.info{
+    grid-column-start: 1;
+    grid-column-end: 3;  
+    text-align: center;
+}
+.info > p{
+    margin-top: 5px;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+.button{    
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+}
+
+.btn:hover{
+    color: lightskyblue;
+}
+
+.btn{
+    background-color: #293F50;
+    color: white;
+    border: 1px solid;
+    border-radius: 4px;
+    text-align: center;    
+    padding: 15px 32px;    
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-bottom: 60px;
+    font-weight: 500;    
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-bottom: 90px;
+    margin-top: 20px;
+    text-align: center;
+    color:gray;
+}
+
+img {
+    width: 300px;
+    height: 300px;  
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 50px;
+    background-color:#293F50 ;
+    color: white;
+}
+
+.copyright{
+    text-align: left;
+}
+
+.copyright > h3{
+    color: green;
+    font-weight: 300;
+    margin-left: 180px;
+}
+
+.footerNav{
+    text-align: right;
+    padding-right: 50px;
+}
+
+ul > a{
+    padding: 0 25px;
+}
+
+ul > a:hover{
+    color:lightskyblue;
+}
